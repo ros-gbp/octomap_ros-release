@@ -1,0 +1,12 @@
+Source: ros-jade-octomap-ros
+Section: misc
+Priority: extra
+Maintainer: Armin Hornung <HornungA@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-octomap, ros-jade-octomap-msgs, ros-jade-sensor-msgs, ros-jade-tf
+Homepage: http://ros.org/wiki/octomap_ros
+Standards-Version: 3.9.2
+
+Package: ros-jade-octomap-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-octomap, ros-jade-octomap-msgs, ros-jade-sensor-msgs, ros-jade-tf
+Description: octomap_ros provides conversion functions between ROS and OctoMap's native types. This enables a convenvient use of the octomap package in ROS.
