@@ -1,3 +1,26 @@
+## octomap_ros (kinetic) - 0.4.0-0
+
+The packages in the `octomap_ros` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release octomap_ros --track kinetic --rosdistro kinetic --new-track` on `Sat, 16 Apr 2016 12:43:19 -0000`
+
+The `octomap_ros` package was released.
+
+Version of package(s) in repository `octomap_ros`:
+
+- upstream repository: https://github.com/OctoMap/octomap_ros.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.5`
+- vcstools version: `0.1.38`
+
+
 ## octomap_ros (jade) - 0.4.0-1
 
 The packages in the `octomap_ros` repository were released into the `jade` distro by running `/usr/bin/bloom-release octomap_ros --track jade --rosdistro jade --new-track` on `Sat, 25 Apr 2015 17:17:27 -0000`
