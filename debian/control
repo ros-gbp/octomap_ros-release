@@ -1,0 +1,13 @@
+Source: ros-lunar-octomap-ros
+Section: misc
+Priority: extra
+Maintainer: Armin Hornung <HornungA@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-octomap, ros-lunar-octomap-msgs, ros-lunar-sensor-msgs, ros-lunar-tf
+Homepage: http://ros.org/wiki/octomap_ros
+Standards-Version: 3.9.2
+
+Package: ros-lunar-octomap-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-octomap, ros-lunar-octomap-msgs, ros-lunar-sensor-msgs, ros-lunar-tf
+Description: octomap_ros provides conversion functions between ROS and OctoMap's native types.
+ This enables a convenvient use of the octomap package in ROS.
