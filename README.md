@@ -1,3 +1,26 @@
+## octomap_ros (melodic) - 0.4.0-0
+
+The packages in the `octomap_ros` repository were released into the `melodic` distro by running `/usr/bin/bloom-release octomap_ros --rosdistro melodic` on `Thu, 04 Oct 2018 19:21:03 -0000`
+
+The `octomap_ros` package was released.
+
+Version of package(s) in repository `octomap_ros`:
+
+- upstream repository: https://github.com/OctoMap/octomap_ros.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.7`
+- catkin_pkg version: `0.4.6`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## octomap_ros (lunar) - 0.4.0-1
 
 The packages in the `octomap_ros` repository were released into the `lunar` distro by running `/usr/bin/bloom-release octomap_ros --track lunar --rosdistro lunar` on `Fri, 12 May 2017 19:03:45 -0000`
