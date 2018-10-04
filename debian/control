@@ -1,0 +1,13 @@
+Source: ros-melodic-octomap-ros
+Section: misc
+Priority: extra
+Maintainer: Armin Hornung <HornungA@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-octomap, ros-melodic-octomap-msgs, ros-melodic-sensor-msgs, ros-melodic-tf
+Homepage: http://ros.org/wiki/octomap_ros
+Standards-Version: 3.9.2
+
+Package: ros-melodic-octomap-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-octomap, ros-melodic-octomap-msgs, ros-melodic-sensor-msgs, ros-melodic-tf
+Description: octomap_ros provides conversion functions between ROS and OctoMap's native types.
+ This enables a convenvient use of the octomap package in ROS.
