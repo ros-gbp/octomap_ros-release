@@ -1,0 +1,75 @@
+ros-noetic-octomap-ros (0.4.1-1buster) buster; urgency=high
+
+  * Added archive destination for static libraries (#10 <https://github.com/OctoMap/octomap_ros/issues/10>)
+  * Fix catkin_lint issues and cmake policy CMP0038 (#9 <https://github.com/OctoMap/octomap_ros/issues/9>)
+  * Update maintainer emails
+  * Contributors: Andrea Ponza, Armin Hornung, Sebastian Kasperski, Wolfgang Merkt
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Wed, 22 Apr 2020 23:00:00 -0000
+
+ros-noetic-octomap-ros (0.4.0-1buster) buster; urgency=high
+
+  * Dropped PCL support in favor of sensor_msgs::PointCloud2.
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Wed, 16 Apr 2014 23:00:00 -0000
+
+ros-noetic-octomap-ros (0.3.1-1buster) buster; urgency=high
+
+  * Fixing #3 <https://github.com/OctoMap/octomap_ros/issues/3> (explicit instantiation in conversions.cpp)
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Tue, 15 Apr 2014 23:00:00 -0000
+
+ros-noetic-octomap-ros (0.3.0-1buster) buster; urgency=high
+
+  * Removed deprecated OctomapROS class
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Thu, 02 May 2013 23:00:00 -0000
+
+ros-noetic-octomap-ros (0.2.6-1buster) buster; urgency=high
+
+  * fixes for cmake / catkin
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Sat, 05 Jan 2013 00:00:00 -0000
+
+ros-noetic-octomap-ros (0.2.5-1buster) buster; urgency=high
+
+  * catkin fixes
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Sat, 08 Dec 2012 00:00:00 -0000
+
+ros-noetic-octomap-ros (0.2.4-1buster) buster; urgency=high
+
+  * adding include installs
+  * catkin fixes
+  * fixing octomap_msgs dependency
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Sun, 11 Nov 2012 00:00:00 -0000
+
+ros-noetic-octomap-ros (0.2.3-1buster) buster; urgency=high
+
+  * catkinizing octomap_ros
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Mon, 29 Oct 2012 00:00:00 -0000
+
+ros-noetic-octomap-ros (0.2.2-1buster) buster; urgency=high
+
+  * catkinizing octomap_ros
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Sun, 30 Sep 2012 23:00:00 -0000
+
+ros-noetic-octomap-ros (0.2.1-1buster) buster; urgency=high
+
+
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Mon, 03 Sep 2012 23:00:00 -0000
+
+ros-noetic-octomap-ros (0.2.0-1buster) buster; urgency=high
+
+  * Further renaming, improved compat. with groovy (server won't compile yet though)
+  * Updated octomap_ros to new-style stack.xml
+  * manifest / doxygen for octomap_ros & octomap_msgs
+  * deprecated OctomapROS in octomap_ros => directly use octomap lib and conversions.h
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Thu, 23 Aug 2012 23:00:00 -0000
+
+
