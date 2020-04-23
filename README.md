@@ -1,3 +1,26 @@
+## octomap_ros (noetic) - 0.4.1-1
+
+The packages in the `octomap_ros` repository were released into the `noetic` distro by running `/home/wxm/.local/bin/bloom-release -r noetic octomap_ros` on `Thu, 23 Apr 2020 18:17:02 -0000`
+
+The `octomap_ros` package was released.
+
+Version of package(s) in repository `octomap_ros`:
+
+- upstream repository: https://github.com/OctoMap/octomap_ros.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.3`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## octomap_ros (melodic) - 0.4.1-1
 
 The packages in the `octomap_ros` repository were released into the `melodic` distro by running `/home/wxm/.local/bin/bloom-release -r melodic octomap_ros` on `Thu, 23 Apr 2020 18:10:32 -0000`
