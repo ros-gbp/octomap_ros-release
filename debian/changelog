@@ -1,0 +1,75 @@
+ros-melodic-octomap-ros (0.4.1-1bionic) bionic; urgency=high
+
+  * Added archive destination for static libraries (#10 <https://github.com/OctoMap/octomap_ros/issues/10>)
+  * Fix catkin_lint issues and cmake policy CMP0038 (#9 <https://github.com/OctoMap/octomap_ros/issues/9>)
+  * Update maintainer emails
+  * Contributors: Andrea Ponza, Armin Hornung, Sebastian Kasperski, Wolfgang Merkt
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Wed, 22 Apr 2020 23:00:00 -0000
+
+ros-melodic-octomap-ros (0.4.0-1bionic) bionic; urgency=high
+
+  * Dropped PCL support in favor of sensor_msgs::PointCloud2.
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Wed, 16 Apr 2014 23:00:00 -0000
+
+ros-melodic-octomap-ros (0.3.1-1bionic) bionic; urgency=high
+
+  * Fixing #3 <https://github.com/OctoMap/octomap_ros/issues/3> (explicit instantiation in conversions.cpp)
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Tue, 15 Apr 2014 23:00:00 -0000
+
+ros-melodic-octomap-ros (0.3.0-1bionic) bionic; urgency=high
+
+  * Removed deprecated OctomapROS class
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Thu, 02 May 2013 23:00:00 -0000
+
+ros-melodic-octomap-ros (0.2.6-1bionic) bionic; urgency=high
+
+  * fixes for cmake / catkin
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Sat, 05 Jan 2013 00:00:00 -0000
+
+ros-melodic-octomap-ros (0.2.5-1bionic) bionic; urgency=high
+
+  * catkin fixes
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Sat, 08 Dec 2012 00:00:00 -0000
+
+ros-melodic-octomap-ros (0.2.4-1bionic) bionic; urgency=high
+
+  * adding include installs
+  * catkin fixes
+  * fixing octomap_msgs dependency
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Sun, 11 Nov 2012 00:00:00 -0000
+
+ros-melodic-octomap-ros (0.2.3-1bionic) bionic; urgency=high
+
+  * catkinizing octomap_ros
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Mon, 29 Oct 2012 00:00:00 -0000
+
+ros-melodic-octomap-ros (0.2.2-1bionic) bionic; urgency=high
+
+  * catkinizing octomap_ros
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Sun, 30 Sep 2012 23:00:00 -0000
+
+ros-melodic-octomap-ros (0.2.1-1bionic) bionic; urgency=high
+
+
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Mon, 03 Sep 2012 23:00:00 -0000
+
+ros-melodic-octomap-ros (0.2.0-1bionic) bionic; urgency=high
+
+  * Further renaming, improved compat. with groovy (server won't compile yet though)
+  * Updated octomap_ros to new-style stack.xml
+  * manifest / doxygen for octomap_ros & octomap_msgs
+  * deprecated OctomapROS in octomap_ros => directly use octomap lib and conversions.h
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Thu, 23 Aug 2012 23:00:00 -0000
+
+
